@@ -8,7 +8,7 @@ def reformat_languages(languages)
     lang.each do |l, type|
       type.each do |i|
     
-    new_hash = {}
+    new_hash[l] = {}
     new_hash[l] = type
   
 
