@@ -9,7 +9,7 @@ def reformat_languages(languages)
       type.each do |i|
     
     new_hash[l] = {}
-    new_hash[l] = type, known
+    new_hash[l] = type, :style => known
     
 
     new_array.push(known)
