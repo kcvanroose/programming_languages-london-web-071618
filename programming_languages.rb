@@ -10,7 +10,7 @@ def reformat_languages(languages)
     
     new_hash[l] = {}
     new_hash[l] = type
-  
+    
 
     new_array.push(known)
       end
